@@ -1,0 +1,117 @@
+{
+  "navigation": {
+    "dashboard": "Panel",
+    "tasks": "Tareas",
+    "calendar": "Calendario",
+    "goals": "Objetivos",
+    "reminders": "Recordatorios",
+    "analytics": "Análisis",
+    "settings": "Configuración"
+  },
+  "dashboard": {
+    "welcome_back": "¡Bienvenido de vuelta!",
+    "today_summary": "Esto es lo que está pasando con tu productividad hoy.",
+    "tasks_due_today": "Tareas Vencen Hoy",
+    "completed_goals": "Objetivos Completados",
+    "active_streak": "Racha Activa",
+    "focus_time": "Tiempo de Enfoque",
+    "todays_tasks": "Tareas de Hoy",
+    "upcoming": "Próximo",
+    "active_goals": "Objetivos Activos",
+    "recent_activity": "Actividad Reciente",
+    "this_week": "Esta Semana"
+  },
+  "tasks": {
+    "title": "Tareas",
+    "add_task": "Agregar Tarea",
+    "all_tasks": "Todas las Tareas",
+    "today": "Hoy",
+    "upcoming": "Próximo",
+    "completed": "Completado",
+    "priority": {
+      "high": "Alta",
+      "medium": "Media",
+      "low": "Baja"
+    },
+    "due_today": "Vence Hoy",
+    "overdue": "Vencido"
+  },
+  "goals": {
+    "title": "Objetivos",
+    "add_goal": "Agregar Objetivo",
+    "categories": {
+      "health": "Salud",
+      "work": "Trabajo",
+      "personal": "Personal",
+      "learning": "Aprendizaje"
+    },
+    "streak": "días de racha",
+    "progress": "Progreso"
+  },
+  "calendar": {
+    "title": "Calendario",
+    "today": "Hoy",
+    "week": "Semana",
+    "month": "Mes",
+    "add_event": "Agregar Evento"
+  },
+  "reminders": {
+    "title": "Recordatorios",
+    "add_reminder": "Agregar Recordatorio",
+    "upcoming": "Próximo",
+    "completed": "Completado"
+  },
+  "analytics": {
+    "title": "Análisis",
+    "productivity_score": "Puntuación de Productividad",
+    "tasks_completed": "Tareas Completadas",
+    "goals_achieved": "Objetivos Logrados",
+    "current_streaks": "Rachas Actuales"
+  },
+  "settings": {
+    "title": "Configuración",
+    "appearance": "Apariencia",
+    "language": "Idioma",
+    "notifications": "Notificaciones",
+    "data": "Gestión de Datos",
+    "accessibility": "Accesibilidad",
+    "security": "Seguridad",
+    "theme": "Tema",
+    "light": "Claro",
+    "dark": "Oscuro",
+    "system": "Sistema",
+    "export_data": "Exportar Datos",
+    "import_data": "Importar Datos",
+    "reset_data": "Restablecer Todos los Datos"
+  },
+  "actions": {
+    "add": "Agregar",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "complete": "Completar",
+    "view_all": "Ver todo",
+    "quick_add": "Agregar Rápido",
+    "search": "Buscar"
+  },
+  "status": {
+    "offline_ready": "Listo Sin Conexión",
+    "loading": "Cargando...",
+    "saving": "Guardando...",
+    "saved": "Guardado",
+    "error": "Ocurrió un error"
+  },
+  "common": {
+    "today": "Hoy",
+    "tomorrow": "Mañana",
+    "yesterday": "Ayer",
+    "this_week": "Esta Semana",
+    "next_week": "Próxima Semana",
+    "days": "días",
+    "hours": "horas",
+    "minutes": "minutos",
+    "no_data": "No hay datos disponibles",
+    "coming_soon": "Próximamente"
+  }
+}

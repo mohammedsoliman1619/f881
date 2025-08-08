@@ -1,0 +1,117 @@
+{
+  "navigation": {
+    "dashboard": "Tableau de bord",
+    "tasks": "Tâches",
+    "calendar": "Calendrier",
+    "goals": "Objectifs",
+    "reminders": "Rappels",
+    "analytics": "Analyses",
+    "settings": "Paramètres"
+  },
+  "dashboard": {
+    "welcome_back": "Bon retour !",
+    "today_summary": "Voici ce qui se passe avec votre productivité aujourd'hui.",
+    "tasks_due_today": "Tâches Dues Aujourd'hui",
+    "completed_goals": "Objectifs Complétés",
+    "active_streak": "Série Active",
+    "focus_time": "Temps de Concentration",
+    "todays_tasks": "Tâches d'Aujourd'hui",
+    "upcoming": "À venir",
+    "active_goals": "Objectifs Actifs",
+    "recent_activity": "Activité Récente",
+    "this_week": "Cette Semaine"
+  },
+  "tasks": {
+    "title": "Tâches",
+    "add_task": "Ajouter une Tâche",
+    "all_tasks": "Toutes les Tâches",
+    "today": "Aujourd'hui",
+    "upcoming": "À venir",
+    "completed": "Complété",
+    "priority": {
+      "high": "Haute",
+      "medium": "Moyenne",
+      "low": "Basse"
+    },
+    "due_today": "Due Aujourd'hui",
+    "overdue": "En retard"
+  },
+  "goals": {
+    "title": "Objectifs",
+    "add_goal": "Ajouter un Objectif",
+    "categories": {
+      "health": "Santé",
+      "work": "Travail",
+      "personal": "Personnel",
+      "learning": "Apprentissage"
+    },
+    "streak": "jours de série",
+    "progress": "Progrès"
+  },
+  "calendar": {
+    "title": "Calendrier",
+    "today": "Aujourd'hui",
+    "week": "Semaine",
+    "month": "Mois",
+    "add_event": "Ajouter un Événement"
+  },
+  "reminders": {
+    "title": "Rappels",
+    "add_reminder": "Ajouter un Rappel",
+    "upcoming": "À venir",
+    "completed": "Complété"
+  },
+  "analytics": {
+    "title": "Analyses",
+    "productivity_score": "Score de Productivité",
+    "tasks_completed": "Tâches Terminées",
+    "goals_achieved": "Objectifs Atteints",
+    "current_streaks": "Séries Actuelles"
+  },
+  "settings": {
+    "title": "Paramètres",
+    "appearance": "Apparence",
+    "language": "Langue",
+    "notifications": "Notifications",
+    "data": "Gestion des Données",
+    "accessibility": "Accessibilité",
+    "security": "Sécurité",
+    "theme": "Thème",
+    "light": "Clair",
+    "dark": "Sombre",
+    "system": "Système",
+    "export_data": "Exporter les Données",
+    "import_data": "Importer les Données",
+    "reset_data": "Réinitialiser Toutes les Données"
+  },
+  "actions": {
+    "add": "Ajouter",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "complete": "Terminer",
+    "view_all": "Voir tout",
+    "quick_add": "Ajout Rapide",
+    "search": "Rechercher"
+  },
+  "status": {
+    "offline_ready": "Prêt Hors Ligne",
+    "loading": "Chargement...",
+    "saving": "Enregistrement...",
+    "saved": "Enregistré",
+    "error": "Une erreur s'est produite"
+  },
+  "common": {
+    "today": "Aujourd'hui",
+    "tomorrow": "Demain",
+    "yesterday": "Hier",
+    "this_week": "Cette Semaine",
+    "next_week": "Semaine Prochaine",
+    "days": "jours",
+    "hours": "heures",
+    "minutes": "minutes",
+    "no_data": "Aucune donnée disponible",
+    "coming_soon": "Bientôt disponible"
+  }
+}
