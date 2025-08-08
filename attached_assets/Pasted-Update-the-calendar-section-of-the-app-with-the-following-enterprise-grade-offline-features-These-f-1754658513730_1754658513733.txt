@@ -1,0 +1,125 @@
+Update the calendar section of the app with the following enterprise-grade offline features. These features must be implemented using our current UI style, localization system, live sync architecture, and secure offline storage (IndexedDB/localStorage) following our standard coding practices.
+
+🧩 Core Feature Requirements
+Time Blocking Support
+
+Enable users to create draggable/resizable time blocks on the calendar.
+
+Each time block must be linked to a task, goal, event, or reminder.
+
+Time blocks must support project/group coloring using consistent badge colors from other sections.
+
+Auto-Rollover of Incomplete Tasks
+
+If a task's due date passes and it's still not completed, auto-place it on the next day's calendar.
+
+This logic must run locally on app load and when the calendar is opened.
+
+Effort & Duration Estimation
+
+Allow user to set an “estimated duration” (e.g., 45 minutes) when creating/editing tasks.
+
+Calendar should visually show how much time each task consumes per day.
+
+Summarize total scheduled time per day in the calendar view.
+
+Focus Mode / Today View
+
+Create a minimal "Today View" showing only current day's tasks, events, goals.
+
+Support an optional focus timer (Pomodoro, Countdown, or Session Timer).
+
+Must sync in real-time with the rest of the app (e.g., task status updates).
+
+Advanced Recurrence Support
+
+Upgrade current recurrence logic to support options like:
+
+Every X days
+
+Every 2nd Monday
+
+Every weekday
+
+Until [date] or [N] occurrences
+
+Recurrence should be editable and stored locally with recurrence rules applied on calendar load.
+
+Drag & Drop Rescheduling
+
+Implement drag-to-reschedule tasks or events on the calendar (mouse and touch support).
+
+Changes must sync live across all sections (Tasks, Goals, Dashboard).
+
+Calendar Item Notes
+
+Allow inline notes for each calendar item.
+
+Notes should be displayed via hover or modal preview and stored locally.
+
+Workload Heatmap / Visual Load
+
+Show color or gradient for each day based on number of scheduled items or total scheduled minutes.
+
+Optional toggle to show/hide workload mode.
+
+Mini Month View / Navigation Panel
+
+Add a small month-picker calendar on the side or top for fast navigation.
+
+Syncs with the main calendar and shows visual indicators for scheduled days.
+
+Offline Attachments (Optional)
+
+Allow attaching files to calendar events using IndexedDB with base64/blob.
+
+Store securely and respect app size limitations.
+
+🎨 UI/UX Requirements
+Match the app’s existing visual style and component library.
+
+Spacing, alignment, and responsiveness must be fully polished and visually professional.
+
+Use project/tag/group colors as visual indicators for time blocks.
+
+Every element should be accessible (keyboard + ARIA where needed).
+
+Support light and dark mode as per user settings.
+
+🌍 Localization
+All new text, labels, and buttons must use the existing t() function from the localization system.
+
+Add translation keys for each new feature to the appropriate locale JSON files.
+
+Changing language should immediately reflect across the calendar and related forms.
+
+🔐 Security & Standards
+All data should be stored securely offline in localStorage or IndexedDB with optional AES or CryptoJS encryption (following existing security model).
+
+Validate all user inputs (title, date, recurrence rules, etc.) using existing Zod schemas or equivalent.
+
+Maintain type safety (TypeScript strict mode).
+
+Follow modular and clean component structure.
+
+Ensure real-time live sync with other app sections using the shared sync logic (every 30s or on local event).
+
+No external calendar sync or AI features are needed.
+
+🧪 QA & Performance
+Calendar section must handle at least 1000+ events without lag.
+
+Offline-first behavior must be robust (works fully with no connection).
+
+All fields and time logic must be tested for edge cases (e.g., recurrence overlaps, long tasks, timezone shifts).
+
+📁 Deliverables
+Updated calendar UI with drag-and-drop, recurrence, and effort blocks.
+
+Refactored event/task syncing logic across calendar and task manager.
+
+Localized UI for all new elements.
+
+Fully working in offline mode.
+
+Modular, readable code following our usual standard.
